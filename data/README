@@ -1,0 +1,69 @@
+APOE Gene Research Analysis
+
+Overview:
+The project aims to analyze research activity around the APOE gene, identify key researchers, and visualize collaboration networks. The analysis helps in understanding the evolving research trends and building connections in the gene therapy field.
+
+Dataset
+The analysis is based on three key CSV files:
+1. articles.csv – Contains research papers with metadata (title, abstract, journal, publication year, etc.).
+2. authors.csv – Provides author details and affiliations for each paper.
+3. papercount.csv – Tracks the number of papers associated with each researcher.
+4. countries.zip - additional zip file added for a shapefile dataset containing geographical boundaries for countries.
+
+Objectives
+- Identify key active researchers in APOE gene therapy
+- Impact factor of Journals 
+- Analyse publication trends and focus areas in APOE research
+- Trends and Themes in APOE Research: Keywords, Evolution, and Comparative Analysis
+- Map collaboration networks between researchers.
+- Highlight insights to guide strategic connections.
+
+
+Installation
+Prerequisites
+Ensure you have the following installed:
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- Geopandas
+- NetworkX
+
+Install dependencies using:
+```bash
+pip install pandas numpy matplotlib seaborn plotly geopandas networkx
+```
+
+Usage
+1. Data Cleaning & Preprocessing
+Run the script to clean the data and extract relevant information:
+```bash
+python data_preprocessing.py
+```
+
+2. Visualizations
+Generate insights using:
+python visualization.py
+```
+Includes:
+- Heatmaps of research activity by country.
+- Network graphs of researcher collaborations.
+- Publication trends over time.
+- Geographical Distribution of research activity
+- Top 10 first authors
+- Top 10 researchers
+- Top 10 researchers with affiliations
+- Top 10 years publications
+- Top institutions
+
+Key Findings
+- Top researchers of APOE gene research.
+- Leading research institutions.
+- Global distribution of research activity.
+- Evolution of research trends over time.
+- Top Journals by number of publications
+
+
+
